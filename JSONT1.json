@@ -1,0 +1,332 @@
+[
+	{
+		"codigo" : 1,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 12345678900,
+				"nome" : "Bernardo",
+				"email" : "bernardo@gmail.com" ,
+				"telefone" : 987654321,
+				"genero" : "M"
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 3 ,
+				"descricao" : "Fantasia"
+			},
+			"Autor" :
+			{
+				"codigo": 3, 
+				"nome" : "Jeff Kinney" 
+			},
+			"codigo" : 3,
+			"titulo" : "Diario de um Banana",
+			"num_paginas" : 224
+		},
+		"data_emprestimo" : "2023-05-01",
+		"data-devolucao" : "2023-05-08"
+	},
+	{
+		"codigo" : 2,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 23456789012,
+				"nome" : "Julia" ,
+				"email" : "julia@gmail.com",
+				"telefone" : 876543210,
+				"genero" : "F"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 1 ,
+				"descricao" : "Romance" 
+			},
+			"Autor" :
+			{
+				"codigo": 2 ,
+				"nome" : "Antoine de Saint-Exupéry"
+			},
+			"codigo" : 2,
+			"titulo" : "O Pequeno Principe" ,
+			"num_paginas" : 96 
+		},
+		"data_emprestimo" : "2023-05-03" ,
+		"data-devolucao" : "2023-05-10" 
+	},
+	{
+		"codigo" : 3,
+		"Pessoa" :
+		{
+			"Professor": 
+			{
+				"cpf" : 34567890123,
+				"nome" : "Tulio" ,
+				"email" : "tulio@gmail.com",
+				"telefone" : 765432109 ,
+				"genero" : "M"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 3,
+				"descricao" : "Ficção Científica" 
+			},
+			"Autor" :
+			{
+				"codigo": 1 ,
+				"nome" : "George Orwell"
+			},
+			"codigo" : 3 ,
+			"titulo" : "Revolução dos Bichos" ,
+			"num_paginas" : 152
+		},
+		"data_emprestimo" : "2023-05-05",
+		"data-devolucao" : "2023-05-12"
+	},
+	{
+		"codigo" : 4,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 45678901234 ,
+				"nome" : "Daniela",
+				"email" : "daniela@gmail.com" ,
+				"telefone" : 654321098 ,
+				"genero" : "F"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 3 ,
+				"descricao" : "Fantasia"
+			},
+			"Autor" :
+			{
+				"codigo": 3,
+				"nome" : "Jeff Kinney"
+			},
+			"codigo" : 1,
+			"titulo" : "Diario de um Banana",
+			"num_paginas" : 224
+		},
+		"data_emprestimo" : "2023-05-07" ,
+		"data-devolucao" : "2023-05-14"
+	},
+	{
+		"codigo" : 5,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 56789012345,
+				"nome" : "Maria" ,
+				"email" : "maria@gmail.com",
+				"telefone" : 543210987,
+				"genero" : "F"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 1,
+				"descricao" : "Romance"
+			},
+			"Autor" :
+			{
+				"codigo": 2 ,
+				"nome" : "Antoine de Saint-Exupéry"
+			},
+			"codigo" : 2 ,
+			"titulo" : "O Pequeno Principe" ,
+			"num_paginas" : 96
+		},
+		"data_emprestimo" : "2023-05-09",
+		"data-devolucao" : "2023-05-16"
+	},
+	{
+		"codigo" : 6,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 12345678900,
+				"nome" : "Bernardo",
+				"email" : "bernardo@gmail.com",
+				"telefone" : 987654321 ,
+				"genero" : "M"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 2,
+				"descricao" : "Ficção Científica"
+			},
+			"Autor" :
+			{
+				"codigo": 1 ,
+				"nome" : "George Orwell"
+			},
+			"codigo" : 3 ,
+			"titulo" : "Revolução dos Bichos",
+			"num_paginas" : 152
+		},
+		"data_emprestimo" : "2023-05-11",
+		"data-devolucao" : "2023-05-18"
+	},
+	{
+		"codigo" : 7,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 23456789012 ,
+				"nome" : "Julia" ,
+				"email" : "julia@gmail.com",
+				"telefone" : 876543210,
+				"genero" : "F"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 3 ,
+				"descricao" : "Fantasia"
+			},
+			"Autor" :
+			{
+				"codigo": 3,
+				"nome" : "Jeff Kinney"
+			},
+			"codigo" : 1,
+			"titulo" : "Diario de um Banana",
+			"num_paginas" : 224
+		},
+		"data_emprestimo" : "2023-05-13",
+		"data-devolucao" : "2023-05-20"
+	},
+	{
+		"codigo" : 8,
+		"Pessoa" :
+		{
+			"Professor": 
+			{
+				"cpf" : 34567890123 ,
+				"nome" : "Tulio",
+				"email" : "tulio@gmail.com",
+				"telefone" : 765432109,
+				"genero" : "M"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 1,
+				"descricao" : "Romance"
+			},
+			"Autor" :
+			{
+				"codigo": 2  ,
+				"nome" : "Antoine de Saint-Exupéry"
+			},
+			"codigo" : 2 ,
+			"titulo" : "O Pequeno Principe" ,
+			"num_paginas" : 96
+		},
+		"data_emprestimo" : "2023-05-15" ,
+		"data-devolucao" : "2023-05-22"
+	},
+	{
+		"codigo" : 9,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 45678901234,
+				"nome" : "Daniela",
+				"email" : "daniela@gmail.com",
+				"telefone" : 654321098,
+				"genero" : "F"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 2 ,
+				"descricao" : "Ficção Científica"
+			},
+			"Autor" :
+			{
+				"codigo": 1 ,
+				"nome" : "George Orwell"
+			},
+			"codigo" : 3 ,
+			"titulo" : "Revolução dos Bichos" ,
+			"num_paginas" : 152
+		},
+		"data_emprestimo" : "2023-05-17",
+		"data-devolucao" : "2023-05-24"
+	},
+	{
+		"codigo" : 10,
+		"Pessoa" :
+		{
+			"Aluno": 
+			{
+				"cpf" : 56789012345,
+				"nome" : "Maria",
+				"email" : "maria@gmail.com" ,
+				"telefone" : 543210987,
+				"genero" : "F"
+				
+			}
+		},
+		"Obra":
+		{
+			"TipoDeObra" :
+			{
+				"codigo" : 3,
+				"descricao" : "Fantasia" 
+			},
+			"Autor" :
+			{
+				"codigo": 3 ,
+				"nome" : "Jeff Kinney"
+			},
+			"codigo" : 1,
+			"titulo" : "Diario de um Banana",
+			"num_paginas" : 224
+		},
+		"data_emprestimo" : "2023-05-19",
+		"data-devolucao" : "2023-05-26"
+	},
+	
+]
